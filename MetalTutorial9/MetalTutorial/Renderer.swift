@@ -113,7 +113,7 @@ class Renderer: NSObject, MTKViewDelegate {
         var viewProjMatrix = projectionMatrix * viewMatrix
         
         // Light
-        let lightProjectionMatrix = createOrthogonalProjection(-10.0, 10.0, -10.0, 10.0, -25.0, 25.0)
+        let lightProjectionMatrix = createOrthographicProjection(-10.0, 10.0, -10.0, 10.0, -25.0, 25.0)
         let lightViewMatrix = createViewMatrix(eyePosition: -lightDirection, targetPosition: simd_float3(repeating: 0.0), upVec: simd_float3(0.0, 1.0, 0.0))
         var lightViewProjMatrix = lightProjectionMatrix * lightViewMatrix
         

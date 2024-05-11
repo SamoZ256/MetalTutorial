@@ -101,7 +101,7 @@ func createPerspectiveMatrix(fov: Float, aspectRatio: Float, nearPlane: Float, f
     return matrix;
 }
 
-func createOrthogonalProjection(_ l: Float, _ r: Float, _ bottom: Float, _ top: Float, _ zNear: Float, _ zFar: Float) -> simd_float4x4 {
+func createOrthographicProjection(_ l: Float, _ r: Float, _ bottom: Float, _ top: Float, _ zNear: Float, _ zFar: Float) -> simd_float4x4 {
     var matrix = matrix_identity_float4x4
     matrix[0][0] = 2.0 / (r - l)
     matrix[1][1] = 2.0 / (top - bottom)
