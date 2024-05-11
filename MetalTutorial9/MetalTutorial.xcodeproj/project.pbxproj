@@ -10,14 +10,6 @@
 		D81244962B80FFBD007DD7D3 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81244952B80FFBD007DD7D3 /* Camera.swift */; };
 		D85F804A2BE8D22D006A9197 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85F80492BE8D22D006A9197 /* Model.swift */; };
 		D85F80DC2BE8EE52006A9197 /* Sponza_Scene.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D85F80DB2BE8EE52006A9197 /* Sponza_Scene.usdz */; };
-		D85F81D52BEB4968006A9197 /* ao.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D85F81CC2BEB4968006A9197 /* ao.jpg */; };
-		D85F81D62BEB4968006A9197 /* backpack.mtl in Resources */ = {isa = PBXBuildFile; fileRef = D85F81CD2BEB4968006A9197 /* backpack.mtl */; };
-		D85F81D72BEB4968006A9197 /* backpack.obj in Resources */ = {isa = PBXBuildFile; fileRef = D85F81CE2BEB4968006A9197 /* backpack.obj */; };
-		D85F81D82BEB4968006A9197 /* diffuse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D85F81CF2BEB4968006A9197 /* diffuse.jpg */; };
-		D85F81D92BEB4968006A9197 /* normal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D85F81D02BEB4968006A9197 /* normal.jpg */; };
-		D85F81DA2BEB4968006A9197 /* roughness.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D85F81D12BEB4968006A9197 /* roughness.jpg */; };
-		D85F81DB2BEB4968006A9197 /* source_attribution.txt in Resources */ = {isa = PBXBuildFile; fileRef = D85F81D22BEB4968006A9197 /* source_attribution.txt */; };
-		D85F81DC2BEB4968006A9197 /* specular.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D85F81D32BEB4968006A9197 /* specular.jpg */; };
 		D8B4B2D82AF573A40053AAE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B4B2D72AF573A40053AAE4 /* AppDelegate.swift */; };
 		D8B4B2DA2AF573A40053AAE4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B4B2D92AF573A40053AAE4 /* GameViewController.swift */; };
 		D8B4B2DC2AF573A40053AAE4 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B4B2DB2AF573A40053AAE4 /* Renderer.swift */; };
@@ -25,30 +17,12 @@
 		D8B4B2E12AF573A50053AAE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B4B2E02AF573A50053AAE4 /* Assets.xcassets */; };
 		D8B4B2E42AF573A50053AAE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B4B2E22AF573A50053AAE4 /* Main.storyboard */; };
 		D8B4B2F42AFA4E420053AAE4 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B4B2F32AFA4E420053AAE4 /* Math.swift */; };
-		D8C614372BEB9F11004E2674 /* garage_pmrem.ktx in Resources */ = {isa = PBXBuildFile; fileRef = D8C6142C2BEB9F11004E2674 /* garage_pmrem.ktx */; };
-		D8C614382BEB9F11004E2674 /* helmet_baseColor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8C6142D2BEB9F11004E2674 /* helmet_baseColor.jpg */; };
-		D8C614392BEB9F11004E2674 /* helmet_baseColor.png in Resources */ = {isa = PBXBuildFile; fileRef = D8C6142E2BEB9F11004E2674 /* helmet_baseColor.png */; };
-		D8C6143A2BEB9F11004E2674 /* helmet_metallic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8C6142F2BEB9F11004E2674 /* helmet_metallic.jpg */; };
-		D8C6143B2BEB9F11004E2674 /* helmet_metallicRoughness.png in Resources */ = {isa = PBXBuildFile; fileRef = D8C614302BEB9F11004E2674 /* helmet_metallicRoughness.png */; };
-		D8C6143C2BEB9F11004E2674 /* helmet_normal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8C614312BEB9F11004E2674 /* helmet_normal.jpg */; };
-		D8C6143D2BEB9F11004E2674 /* helmet_roughness.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8C614322BEB9F11004E2674 /* helmet_roughness.jpg */; };
-		D8C6143E2BEB9F11004E2674 /* loft_pmrem.ktx in Resources */ = {isa = PBXBuildFile; fileRef = D8C614332BEB9F11004E2674 /* loft_pmrem.ktx */; };
-		D8C6143F2BEB9F11004E2674 /* scene.mtl in Resources */ = {isa = PBXBuildFile; fileRef = D8C614342BEB9F11004E2674 /* scene.mtl */; };
-		D8C614402BEB9F11004E2674 /* scene.obj in Resources */ = {isa = PBXBuildFile; fileRef = D8C614352BEB9F11004E2674 /* scene.obj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D81244952B80FFBD007DD7D3 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 		D85F80492BE8D22D006A9197 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		D85F80DB2BE8EE52006A9197 /* Sponza_Scene.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Sponza_Scene.usdz; sourceTree = "<group>"; };
-		D85F81CC2BEB4968006A9197 /* ao.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ao.jpg; sourceTree = "<group>"; };
-		D85F81CD2BEB4968006A9197 /* backpack.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = backpack.mtl; sourceTree = "<group>"; };
-		D85F81CE2BEB4968006A9197 /* backpack.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = backpack.obj; sourceTree = "<group>"; };
-		D85F81CF2BEB4968006A9197 /* diffuse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = diffuse.jpg; sourceTree = "<group>"; };
-		D85F81D02BEB4968006A9197 /* normal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = normal.jpg; sourceTree = "<group>"; };
-		D85F81D12BEB4968006A9197 /* roughness.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = roughness.jpg; sourceTree = "<group>"; };
-		D85F81D22BEB4968006A9197 /* source_attribution.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = source_attribution.txt; sourceTree = "<group>"; };
-		D85F81D32BEB4968006A9197 /* specular.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = specular.jpg; sourceTree = "<group>"; };
 		D8B4B2D42AF573A40053AAE4 /* MetalTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8B4B2D72AF573A40053AAE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8B4B2D92AF573A40053AAE4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -58,16 +32,6 @@
 		D8B4B2E32AF573A50053AAE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8B4B2E52AF573A50053AAE4 /* MetalTutorial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MetalTutorial.entitlements; sourceTree = "<group>"; };
 		D8B4B2F32AFA4E420053AAE4 /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
-		D8C6142C2BEB9F11004E2674 /* garage_pmrem.ktx */ = {isa = PBXFileReference; lastKnownFileType = file; path = garage_pmrem.ktx; sourceTree = "<group>"; };
-		D8C6142D2BEB9F11004E2674 /* helmet_baseColor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = helmet_baseColor.jpg; sourceTree = "<group>"; };
-		D8C6142E2BEB9F11004E2674 /* helmet_baseColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helmet_baseColor.png; sourceTree = "<group>"; };
-		D8C6142F2BEB9F11004E2674 /* helmet_metallic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = helmet_metallic.jpg; sourceTree = "<group>"; };
-		D8C614302BEB9F11004E2674 /* helmet_metallicRoughness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helmet_metallicRoughness.png; sourceTree = "<group>"; };
-		D8C614312BEB9F11004E2674 /* helmet_normal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = helmet_normal.jpg; sourceTree = "<group>"; };
-		D8C614322BEB9F11004E2674 /* helmet_roughness.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = helmet_roughness.jpg; sourceTree = "<group>"; };
-		D8C614332BEB9F11004E2674 /* loft_pmrem.ktx */ = {isa = PBXFileReference; lastKnownFileType = file; path = loft_pmrem.ktx; sourceTree = "<group>"; };
-		D8C614342BEB9F11004E2674 /* scene.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = scene.mtl; sourceTree = "<group>"; };
-		D8C614352BEB9F11004E2674 /* scene.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = scene.obj; sourceTree = "<group>"; };
 		D8D299AE2B83A18000A1600C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,26 +50,8 @@
 			isa = PBXGroup;
 			children = (
 				D85F80DB2BE8EE52006A9197 /* Sponza_Scene.usdz */,
-				D8C614362BEB9F11004E2674 /* helmet */,
-				D85F81D42BEB4968006A9197 /* backpack */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		D85F81D42BEB4968006A9197 /* backpack */ = {
-			isa = PBXGroup;
-			children = (
-				D85F81CC2BEB4968006A9197 /* ao.jpg */,
-				D85F81CD2BEB4968006A9197 /* backpack.mtl */,
-				D85F81CE2BEB4968006A9197 /* backpack.obj */,
-				D85F81CF2BEB4968006A9197 /* diffuse.jpg */,
-				D85F81D02BEB4968006A9197 /* normal.jpg */,
-				D85F81D12BEB4968006A9197 /* roughness.jpg */,
-				D85F81D22BEB4968006A9197 /* source_attribution.txt */,
-				D85F81D32BEB4968006A9197 /* specular.jpg */,
-			);
-			name = backpack;
-			path = ../../../../../../lava_core/examples/assets/models/backpack;
 			sourceTree = "<group>";
 		};
 		D8B4B2CB2AF573A40053AAE4 = {
@@ -141,23 +87,6 @@
 				D8B4B2E52AF573A50053AAE4 /* MetalTutorial.entitlements */,
 			);
 			path = MetalTutorial;
-			sourceTree = "<group>";
-		};
-		D8C614362BEB9F11004E2674 /* helmet */ = {
-			isa = PBXGroup;
-			children = (
-				D8C6142C2BEB9F11004E2674 /* garage_pmrem.ktx */,
-				D8C6142D2BEB9F11004E2674 /* helmet_baseColor.jpg */,
-				D8C6142E2BEB9F11004E2674 /* helmet_baseColor.png */,
-				D8C6142F2BEB9F11004E2674 /* helmet_metallic.jpg */,
-				D8C614302BEB9F11004E2674 /* helmet_metallicRoughness.png */,
-				D8C614312BEB9F11004E2674 /* helmet_normal.jpg */,
-				D8C614322BEB9F11004E2674 /* helmet_roughness.jpg */,
-				D8C614332BEB9F11004E2674 /* loft_pmrem.ktx */,
-				D8C614342BEB9F11004E2674 /* scene.mtl */,
-				D8C614352BEB9F11004E2674 /* scene.obj */,
-			);
-			path = helmet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,26 +148,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D85F80DC2BE8EE52006A9197 /* Sponza_Scene.usdz in Resources */,
-				D85F81D82BEB4968006A9197 /* diffuse.jpg in Resources */,
-				D8C6143F2BEB9F11004E2674 /* scene.mtl in Resources */,
-				D85F81DA2BEB4968006A9197 /* roughness.jpg in Resources */,
-				D8C6143E2BEB9F11004E2674 /* loft_pmrem.ktx in Resources */,
-				D85F81D92BEB4968006A9197 /* normal.jpg in Resources */,
-				D8C614382BEB9F11004E2674 /* helmet_baseColor.jpg in Resources */,
-				D85F81D72BEB4968006A9197 /* backpack.obj in Resources */,
-				D8C6143B2BEB9F11004E2674 /* helmet_metallicRoughness.png in Resources */,
-				D8C6143D2BEB9F11004E2674 /* helmet_roughness.jpg in Resources */,
-				D8C614402BEB9F11004E2674 /* scene.obj in Resources */,
-				D85F81DB2BEB4968006A9197 /* source_attribution.txt in Resources */,
-				D8C614392BEB9F11004E2674 /* helmet_baseColor.png in Resources */,
-				D85F81D52BEB4968006A9197 /* ao.jpg in Resources */,
 				D8B4B2E12AF573A50053AAE4 /* Assets.xcassets in Resources */,
-				D8C6143A2BEB9F11004E2674 /* helmet_metallic.jpg in Resources */,
-				D8C614372BEB9F11004E2674 /* garage_pmrem.ktx in Resources */,
-				D85F81D62BEB4968006A9197 /* backpack.mtl in Resources */,
-				D8C6143C2BEB9F11004E2674 /* helmet_normal.jpg in Resources */,
 				D8B4B2E42AF573A50053AAE4 /* Main.storyboard in Resources */,
-				D85F81DC2BEB4968006A9197 /* specular.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
