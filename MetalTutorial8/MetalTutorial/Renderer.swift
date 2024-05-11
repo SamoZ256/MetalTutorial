@@ -7,6 +7,7 @@ struct Vertex {
     var position: simd_float3
     var texCoord: simd_float2
     var normal: simd_float3
+    var tangent: simd_float4
 }
 
 class Renderer: NSObject, MTKViewDelegate {
@@ -66,6 +67,10 @@ class Renderer: NSObject, MTKViewDelegate {
         vertexDescriptor.attributes[2].format = MTLVertexFormat.float3
         vertexDescriptor.attributes[2].offset = MemoryLayout.offset(of: \Vertex.normal)!
         vertexDescriptor.attributes[2].bufferIndex = 30
+        
+        vertexDescriptor.attributes[3].format = MTLVertexFormat.float4
+        vertexDescriptor.attributes[3].offset = MemoryLayout.offset(of: \Vertex.tangent)!
+        vertexDescriptor.attributes[3].bufferIndex = 30
         
         // Library
         self.library = device.makeDefaultLibrary()!
