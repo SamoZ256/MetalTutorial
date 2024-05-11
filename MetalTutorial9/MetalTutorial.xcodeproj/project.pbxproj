@@ -17,6 +17,9 @@
 		D8B4B2E12AF573A50053AAE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B4B2E02AF573A50053AAE4 /* Assets.xcassets */; };
 		D8B4B2E42AF573A50053AAE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B4B2E22AF573A50053AAE4 /* Main.storyboard */; };
 		D8B4B2F42AFA4E420053AAE4 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B4B2F32AFA4E420053AAE4 /* Math.swift */; };
+		D8C614422BEF63A4004E2674 /* ShadowPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C614412BEF63A4004E2674 /* ShadowPass.swift */; };
+		D8C614442BEF642F004E2674 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C614432BEF642F004E2674 /* Vertex.swift */; };
+		D8C614462BEF6710004E2674 /* MainPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C614452BEF6710004E2674 /* MainPass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		D8B4B2E32AF573A50053AAE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8B4B2E52AF573A50053AAE4 /* MetalTutorial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MetalTutorial.entitlements; sourceTree = "<group>"; };
 		D8B4B2F32AFA4E420053AAE4 /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		D8C614412BEF63A4004E2674 /* ShadowPass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowPass.swift; sourceTree = "<group>"; };
+		D8C614432BEF642F004E2674 /* Vertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
+		D8C614452BEF6710004E2674 /* MainPass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPass.swift; sourceTree = "<group>"; };
 		D8D299AE2B83A18000A1600C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +84,8 @@
 				D8B4B2D72AF573A40053AAE4 /* AppDelegate.swift */,
 				D8B4B2D92AF573A40053AAE4 /* GameViewController.swift */,
 				D8B4B2DB2AF573A40053AAE4 /* Renderer.swift */,
+				D8C614432BEF642F004E2674 /* Vertex.swift */,
+				D8C614412BEF63A4004E2674 /* ShadowPass.swift */,
 				D81244952B80FFBD007DD7D3 /* Camera.swift */,
 				D85F80492BE8D22D006A9197 /* Model.swift */,
 				D8B4B2F32AFA4E420053AAE4 /* Math.swift */,
@@ -85,6 +93,7 @@
 				D8B4B2E02AF573A50053AAE4 /* Assets.xcassets */,
 				D8B4B2E22AF573A50053AAE4 /* Main.storyboard */,
 				D8B4B2E52AF573A50053AAE4 /* MetalTutorial.entitlements */,
+				D8C614452BEF6710004E2674 /* MainPass.swift */,
 			);
 			path = MetalTutorial;
 			sourceTree = "<group>";
@@ -162,8 +171,11 @@
 			files = (
 				D85F804A2BE8D22D006A9197 /* Model.swift in Sources */,
 				D8B4B2DE2AF573A40053AAE4 /* Shaders.metal in Sources */,
+				D8C614442BEF642F004E2674 /* Vertex.swift in Sources */,
+				D8C614462BEF6710004E2674 /* MainPass.swift in Sources */,
 				D8B4B2DA2AF573A40053AAE4 /* GameViewController.swift in Sources */,
 				D81244962B80FFBD007DD7D3 /* Camera.swift in Sources */,
+				D8C614422BEF63A4004E2674 /* ShadowPass.swift in Sources */,
 				D8B4B2DC2AF573A40053AAE4 /* Renderer.swift in Sources */,
 				D8B4B2D82AF573A40053AAE4 /* AppDelegate.swift in Sources */,
 				D8B4B2F42AFA4E420053AAE4 /* Math.swift in Sources */,
