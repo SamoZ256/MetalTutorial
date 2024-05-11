@@ -2,8 +2,8 @@ import Foundation
 import simd
 
 class Camera {
-    var position = simd_float3(0.0, 1.0, -4.0)
-    var direction = simd_float3(0.0, 0.0, 1.0)
+    var position = simd_float3(4.0, 1.0, 0.0)
+    var direction = simd_float3(-1.0, 0.0, 0.0)
     
     var up = simd_float3(0.0, 1.0, 0.0)
     
